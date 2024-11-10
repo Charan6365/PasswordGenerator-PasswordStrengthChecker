@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Teko",sans-serif;
+    color:rgb(255, 255, 255);
+    text-shadow: 4px 4px 10px rgb(213, 210, 210);
+    letter-spacing: 0.09cm;
+    background-repeat: no-repeat;
+}
+body{
+  background: linear-gradient(180deg, rgba(15,15,15,1) 0%, rgba(40,39,39,1) 29%, rgba(55,55,55,1) 64%, rgba(80,80,80,1) 100%);
+}
+
+.container{
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-main{
+  height:50dvh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-main > .container-child{
+  display:flex;
+  flex-direction: row;
+}
+
+
+  .container-main > h1{
+    margin-bottom: 30px;
+  }
+
+
+  .button{
+    background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(40,39,39,1) 29%, rgba(55,55,55,1) 64%, rgba(80,80,80,1) 100%);
+    padding:10px;
+    font-size: xx-large;
+  }
